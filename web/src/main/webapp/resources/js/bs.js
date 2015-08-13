@@ -44,7 +44,7 @@ app.controller("loginController", [ '$scope', '$http', function($scope, $http) {
 			$scope.message = data;
 			$scope.inputEmail = '';
 			$scope.password = '';
-			window.location = '/bahikhaata/account/user/loginSuccess';
+			window.location = '#/';
 		});
 		res.error(function(data, status, headers, config) {
 			alert("failure message: " + JSON.stringify({
@@ -86,6 +86,12 @@ app.config([ '$routeProvider', function($routeProvider) {
 		controller : "PageCtrl"
 	}).when("/contact", {
 		templateUrl : "resources/partials/contact.html",
+		controller : "PageCtrl"
+	}).when("/registration", {
+		templateUrl : "resources/partials/registration.html",
+		controller : "PageCtrl"
+	}).when("/login", {
+		templateUrl : "resources/partials/login.html",
 		controller : "PageCtrl"
 	})
 	// Blog

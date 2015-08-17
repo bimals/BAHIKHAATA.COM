@@ -2,7 +2,7 @@
 <html ng-app="bs">
 <head>
     <!-- Meta-Information -->
-    <title>Online Tax Preparation</title>
+    <title>Accounting And Taxation</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="description" content="BAHIKHAATA.COM">
@@ -21,19 +21,10 @@
 	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
 <body>
-	<div class="topbar">
-		<tiles:insertAttribute name="masthead" />
-	</div>
- 	<div id="topnav" class="topbar">
-		<tiles:insertAttribute name="topnav" />		
-	</div> 
-	
-	<div id="container-wrap" class="row-fluid">
-		<div class="container">
-			<tiles:insertAttribute name="menu" />		
- 			<tiles:insertAttribute name="main" />
-		</div>
-	</div>
+	<tiles:insertAttribute name="masthead" />
+	<tiles:insertAttribute name="topnav" />	
+	<tiles:insertAttribute name="menu" />		
+ 	<tiles:insertAttribute name="main" />
 	<tiles:insertAttribute name="footer" />
 </body>
 </html>

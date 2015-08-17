@@ -1,16 +1,16 @@
-#main .container, #topnav .container {
+/* #main .container, #topnav .container {
 	background: #fff;
 }
 
 #container-wrap .container {
-/* 	background: #fff;
+	background: #fff;
 	margin-top: 28px;
-	min-height: 600px; */
-}
-
+	min-height: 600px;
+} */
+/* 
 #masthead.navbar {
 	float: left;
-}
+} */
 
 #container-wrap, #main {
 	margin-top: 36px;

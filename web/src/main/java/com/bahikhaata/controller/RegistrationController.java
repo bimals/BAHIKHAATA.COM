@@ -1,4 +1,4 @@
-package blog.controller;
+package com.bahikhaata.controller;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 
-import blog.db.repository.IUserRepository;
-import blog.model.AccountUser;
+import com.bimalsahay.model.AccountUser;
+import com.bimalsahay.repository.IUserRepository;
 
 @Controller
 public class RegistrationController {

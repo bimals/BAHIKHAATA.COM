@@ -31,13 +31,13 @@
                         http://www.springframework.org/schema/mvc 
                         http://www.springframework.org/schema/mvc/spring-mvc.xsd">
                         
-<import resource="application-config.xml" />                         
+<import resource="application-config.xml" />        
+	<import resource="application-platform.xml"/>                   
 
-<context:component-scan base-package="blog.controller" />
-<context:component-scan base-package="blog.db" />
-<context:component-scan base-package="blog.db.repository" />
-<context:component-scan base-package="blog.db.service" />
-<context:component-scan base-package="blog.model" />
+<context:component-scan base-package="com.bahikhaata.controller" />
+<context:component-scan base-package="com.bahikhaata.db.repository" />
+<context:component-scan base-package="com.bahikhaata.db.service" />
+<context:component-scan base-package="com.bahikhaata.model" />
 <context:component-scan base-package="blog.platform.authentication" />
 
 <mvc:resources mapping="/resources/**" location="/resources/"/>

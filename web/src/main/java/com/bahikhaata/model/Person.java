@@ -1,4 +1,4 @@
-package blog.model;
+package com.bahikhaata.model;
 
 import org.springframework.data.annotation.Id;
 

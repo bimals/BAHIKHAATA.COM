@@ -1,8 +1,8 @@
-package blog.db.service;
+package com.bahikhaata.db.service;
  
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import blog.model.Person;
+import com.bahikhaata.model.Person;
  
 public class SpringMongoTest {
  
